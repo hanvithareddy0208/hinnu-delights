@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinnu delight's</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+<!--section index-->
+<section id="index" class="index">
+    <div class="pic-ctn">
+          <img src="images\img1.avif" width="100%" height="100%" alt="" class="pic">
+          <img src="images\img2.avif" width="100%" height="100%" alt="" class="pic">
+          <img src="images\img3.jpg" width="100%" height="100%" alt="" class="pic">
+          <img src="images\img4.avif" width="100%" height="100%" alt="" class="pic">
+          <img src="images\img5.avif" width="100%" height="100%" alt="" class="pic">
+      </div>
+  </div>
+    <div class="navbar">
+      <div class="logo">
+          <img src="images\logo.png" height="90px" width="160px" style="background-size: cover;">
+      </div>
+      <div class="nav-opts">
+          <a href="#index">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#About">About</a>
+      </div>
+      <div class="nav-ops">
+          <div class="button-container">
+            <button class="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" aria-hidden="true" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+              <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
+              </svg>
+            </button>
+            <button class="button"><a href="#contact">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="0" fill="currentColor" stroke="currentColor" class="icon">
+              <path d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"></path>
+              </svg></a>
+            </button>
+            <button class="button"><a href="#cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+              <circle r="1" cy="21" cx="9"></circle>
+              <circle r="1" cy="21" cx="20"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg></a>
+            </button>
+          </div>
+      </div>
+      <div class="nav-button">
+          <button class="sign-in"><a href="#signin">Sign-in</a></button>
+      </div>
+    <div class="bg"></div>
+</section>
+ <!-- sign-in-->
+<section id="signin" class="signin">
+  <div class="first-signin"></div>
+    <div class="second-signin">
+    <div class="container">
+    <div class="tabs">
+      <div class="tab active" onclick="showForm('login')">Login</div>
+      <div class="tab" onclick="showForm('signup')">Signup</div>
+    </div>
+    <form id="signup-form">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="password" placeholder="Confirm Password" required />
+      <button class="sign-button" type="submit">Signup</button>
+    </form>
+    <form id="login-form" class="active">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button class="sign-button" type="submit">Login</button>
+    </form>
+  </div>
+     </div>
+</section>
+<!-- section menu-->
+<section id="menu" class="menu">
+  <div class="heading">MENU</div>
+  <div class="nav-menu">
+    <div class="menu-opts">
+    <a href="#breakfast">Breakfast</a>
+    <a href="#lunch">lunch</a>
+    <a href="#dinner">Dinner</a>
+    <a href="#drinks">drinks</a>
+    <a href="#desserts">Desserts</a>
+    </div>
+  </div>
+  <div class="menu-container">
+    <div id="box" class="box1">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-1.jpg);" ></div>
+        <div class="food-item">chicken nizami biryani</div>
+        <div class="cost">350 INR</div>
+        <div class="add-to-cart">
+           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+            <circle r="1" cy="21" cx="9"></circle>
+            <circle r="1" cy="21" cx="20"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </div>
+      </div>
+    </div>
+    <div id="box" class="box2">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-2.jpg);" ></div>
+        <div class="food-item">chocolate rose designer cake</div>
+        <div class="cost">750 INR</div>
+        <div class="add-to-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+            <circle r="1" cy="21" cx="9"></circle>
+            <circle r="1" cy="21" cx="20"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div id="box" class="box3">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-3.jpg);" ></div>
+        <div class="food-item">crispy french fries</div>
+        <div class="cost">120 INR</div>
+        <div class="add-to-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+            <circle r="1" cy="21" cx="9"></circle>
+            <circle r="1" cy="21" cx="20"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div id="box" class="box4">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-4.jpg);" ></div>
+        <div class="food-item">smashed cheese burger</div>
+        <div class="cost">100 INR</div>
+        <div class="add-to-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+            <circle r="1" cy="21" cx="9"></circle>
+            <circle r="1" cy="21" cx="20"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </div>
+      </div>
+    </div>
+    <div id="box" class="box5">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-5.jpg);" ></div>
+        <div class="food-item">simple veg thali</div>
+        <div class="cost">300 INR</div>
+        <div class="add-to-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+            <circle r="1" cy="21" cx="9"></circle>
+            <circle r="1" cy="21" cx="20"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </div>
+      </div>
+    </div>
+    <div id="box" class="box6">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-6.jpg);" ></div>
+        <div class="food-item">coffee milkshake</div>
+        <div class="cost">150 INR</div>
+        <div class="add-to-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+            <circle r="1" cy="21" cx="9"></circle>
+            <circle r="1" cy="21" cx="20"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </div>
+      </div>
+    </div>
+    <div id="box" class="box7">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-7.jpg);" ></div>
+        <div class="food-item">no churn ice cream sundae</div>
+        <div class="cost">150 INR</div>
+        <div class="add-to-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+          <circle r="1" cy="21" cx="9"></circle>
+          <circle r="1" cy="21" cx="20"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg></div>
+      </div>
+    </div>
+    <div id="box" class="box8">
+      <div class="insidebox">
+        <div class="menu-img" style= "background-image: url(images/menu-img-8.jpg);" ></div>
+        <div class="food-item">thatte idli</div>
+        <div class="cost">100 INR</div>
+        <div class="add-to-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+            <circle r="1" cy="21" cx="9"></circle>
+            <circle r="1" cy="21" cx="20"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<!--section cart -->
+<section id="cart" class="cart">
+   <div class="cart-container">
+    <h2>Your Cart</h2>
+    <div class="cart-item">
+      <img src="images/menu-img-4.jpg" alt="Burger">
+      <div class="item-details">
+        <h3>smashed cheese burger</h3>
+        <p>100 INR</p>
+        <input type="number" value="1" min="1">
+      </div>
+      <span class="remove-btn">Remove</span>
+    </div>
+    <div class="cart-item">
+      <img src="images/menu-img-1.jpg" alt="biryani">
+      <div class="item-details">
+        <h3>chicken nizami biryani</h3>
+        <p>350 INR</p>
+        <input type="number" value="1" min="1">
+      </div>
+      <span class="remove-btn">Remove</span>
+    </div>
+    <div class="cart-total">
+      <h3>Total: 450 INR</h3>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </div>
+</section>
+<hr>
+<!-- section about-->
+<section id="about" class="about">
+    <div class="heading">About us</div>
+    <div class="one">
+      <div class="one-one">
+        <img src="images/680116799568d96ee216cf3753766a94.jpg" height="400px" width="500px">
+      </div>
+      <div class="one-two">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ad voluptates deleniti perspiciatis nulla voluptate error consequatur voluptatem aspernatur accusamus tempore sapiente magnam minima deserunt, molestiae, quisquam quos maiores quibusdam Consequuntur quasi quos quas ipsam molestiae harum doloribus itaque facere odio quisquam illo voluptatum, repudiandae nihil veniam saepe aut reiciendis eius minus, cum, quae nulla. Modi optio quibusdam est magni!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam excepturi quia, dolore animi harum est Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut consequuntur alias, quidem assumenda exercitationem quod autem ipsum quibusdam, tempora, obcaecati expedita eligendi! 
+      </div>
+    </div>
+    <div class="two">
+          <div class="heading1">what our customers say</div>
+          <h6 style="text-align: center;">Honest feedback from our awesome users and community members.</h6>
+      <div class="about-container mt-5 mb-5">
+    <div class="row g-2">
+        <div class="col-md-4">
+            <div class="about-card p-3 text-center px-4">  
+                <div class="user-content">
+                    <h5 class="mb-0">Bruce Hardy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>   
+                </div>
+            </div>
+          </div>
+        <div class="col-md-4">
+            <div class="about-card p-3 text-center px-4">
+                <div class="user-content">
+                    <h5 class="mb-0">Mark Smith</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="about-card p-3 text-center px-4">
+                <div class="user-content">
+                    <h5 class="mb-0">Veera  Duncan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<hr>
+<!-- section contact-->
+  <div class="heading">Contact</div>
+  <section id="contact" class="contact">
+    <div class="contact-first">
+      <div class="contact-img">
+      <img src="images/Please-Feel-Free-To-Contact-Me.png" height="200px" width="200px">
+      </div>
+      <br>
+      <div class="contact-info">
+    <div class="card">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestiae
+    explicabo placeat atque praesentium, dolorum corporis amet non, aliquid
+    quasi voluptate delectus nulla exercitationem eius eum, ducimus architecto
+    dolores suscipit!
+    </div>
+    </div>
+      </div>
+    </div>
+    <div class="contact-second">
+    <div class="form-container">
+      <form class="form">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" required="">
+        </div>
+        <div class="form-group">
+          <label for="textarea">Message</label>
+          <textarea name="textarea" id="textarea" rows="10" cols="50" required=""></textarea>
+        </div>
+        <button class="form-submit-btn" type="submit">Submit</button>
+      </form>
+    </div>
+    </div>
+  </section>
+   <footer class="footer">
+  	 <div class="footer-container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">Drinks</a></li>
+  	 				<li><a href="#">Lunch</a></li>
+  	 				<li><a href="#">fruits</a></li>
+  	 				<li><a href="#">Snacks</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa fa-phone"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa fa-envelope"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
